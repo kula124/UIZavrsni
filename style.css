@@ -36,12 +36,20 @@
 /*footer*/
 .footer {
     width: 80%;
+    height: 50px;
     padding: 0 10%;
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
 
 .footer a {
     color: #48C7C6;
     text-decoration: none;
+}
+
+.footer span {
+    color: gray;
+    font-size: 12px;
+    margin: auto 0;
 }
