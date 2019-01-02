@@ -1,0 +1,25 @@
+#headerImg {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*top*/
+.top {
+    width: 80%;
+    padding: 0 10%;
+    background-color: #E8F8F8;
+    height: 460px;
+}
+
+.top button {
+    position: relative;
+    float: right;
+    padding: 15px 20px;
+    background-color: #00BABA;
+    border: #00BABA;
+    color: white;
+}
+.top button:hover {
+    color: gray;
+}
