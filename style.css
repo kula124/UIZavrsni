@@ -1,25 +1,47 @@
 #headerImg {
-    width: 800px;
+    max-height: 365.6px;
+    padding-top: 35px;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
 
 /*top*/
 .top {
-    width: 80%;
-    padding: 0 10%;
+    position: relative;
+    width: 90%;
+    padding: 0 5%;
     background-color: #E8F8F8;
-    height: 460px;
+    height: 482px;
+}
+.top .header {
+    padding: 0 35px;
 }
 
 .top button {
     position: relative;
     float: right;
-    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 30px 25px;
     background-color: #00BABA;
     border: #00BABA;
     color: white;
 }
+
 .top button:hover {
     color: gray;
+}
+
+/*footer*/
+.footer {
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #48C7C6;
+    text-decoration: none;
 }
