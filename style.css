@@ -84,6 +84,7 @@ html {
     padding: 8px 9px;
 }
 
+/*plan---------------*/
 .plan {
     padding-left: 125px;
     margin-top: 60px;
@@ -91,7 +92,7 @@ html {
     justify-content: space-around;
 }
 
-.plan .text {
+.text {
     line-height: 1.6;
 }
 
@@ -102,6 +103,18 @@ html {
 .text a {
     color: #1EBAB9;
     text-decoration: none;
+}
+
+/*handshake*-----------*/
+.handshake {
+    padding-right: 125px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.handshake .text {
+    text-align: right;
 }
 
 /*joinUs-----------*/
