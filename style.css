@@ -83,6 +83,27 @@ html {
 #ig {
     padding: 8px 9px;
 }
+
+.plan {
+    padding-left: 125px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan .text {
+    line-height: 1.6;
+}
+
+.text p {
+    color: gray;
+}
+
+.text a {
+    color: #1EBAB9;
+    text-decoration: none;
+}
+
 /*joinUs-----------*/
 .joinUs {
     padding-top: 60px;
