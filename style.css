@@ -1,0 +1,234 @@
+/*Globals-------------*/
+html {
+    scroll-behavior: smooth;
+  }
+
+input {
+    background: transparent;
+    height: 23px;
+    width: 180px;
+    font-size: 23px;
+    color: #1EBAB9;
+    border: none;
+    border-bottom: #1EBAB9 1px solid;
+    padding: 0 10px;
+    padding-bottom: 4px;
+}
+
+input::placeholder {
+    font-size: 23px;
+    color: #1EBAB9;
+    opacity: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
+/*top------------*/
+.top {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #E8F8F8;
+}
+
+.logo {
+    position: relative;
+    float: left;
+}
+
+.top .content {
+    display: inline-block;
+}
+
+.top button {
+    position: relative;
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 30px 25px;
+    background-color: #00BABA;
+    border: #00BABA;
+    color: white;
+}
+
+.top button:hover {
+    color: gray;
+}
+
+#headerImg {
+    size: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*social-----------*/
+.social {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.social p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: gray;
+}
+
+.social h2 {
+    color: black;
+}
+
+.social h4 {
+    display: inline;
+}
+
+.social img {
+    position: absolute;
+    padding: 8px;
+    background-color: #E8F8F8;
+    border: none;
+}
+
+.social .social-icons {
+    margin-left: 15px;
+    padding-bottom: 20px;
+    position: relative;
+    padding-top: 4px;
+    display: inline-block;
+}
+/*individual icons*/
+#fb {
+    left: 80px;
+    padding: 8px 12px; 
+}
+#tw {
+    left: 39px;
+    padding: 9px 9px;
+}
+#ig {
+    padding: 8px 9px;
+}
+
+/*plan---------------*/
+.plan {
+    margin: 200px 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    line-height: 1.6;
+}
+
+.text p {
+    color: gray;
+}
+
+.text a {
+    color: #1EBAB9;
+    text-decoration: none;
+}
+
+/*idea------------------------*/
+.idea {
+    margin: 130px auto;
+    background-image: url("zavrsni-rad/assets/contacts.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 100px;
+}
+
+.idea .text{
+    text-align: center;
+}
+
+#ideasLabel {
+    color: black;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+.idea .text span {
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.idea span {
+    display: block;
+}
+
+/*handshake*-----------*/
+.handshake {
+    margin: 50px 200px;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.handshake .text {
+    text-align: right;
+}
+
+/*joinUs-----------*/
+.joinUs {
+    padding-top: 60px;
+    text-align: center;
+    background-color: #E8F8F8;
+    line-height: 1.8;
+    height: 230px;
+}
+
+.joinUs button {
+    background-color: #00BABA;
+    border: none;
+    padding: 6px 13px;
+    margin: 20px auto;
+    margin-top: 0;
+    color: white;
+}
+
+.joinUs h2 {
+    margin-top: 0;
+}
+
+.joinUs span {
+    color: #1EBAB9;
+    padding-bottom: 2px;
+    border-bottom: #1EBAB9 solid 1px;
+}
+
+#FNinput {
+    width: 100px;
+}
+
+#EMinput {
+    width: 138px;
+}
+
+#PNinput {
+    width: 110px;
+}
+
+/*footer----------------*/
+.footer {
+    width: 80%;
+    height: 50px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer a {
+    color: #48C7C6;
+    text-decoration: none;
+}
+
+.footer span {
+    color: gray;
+    font-size: 12px;
+    margin: auto 0;
+}
