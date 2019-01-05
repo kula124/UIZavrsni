@@ -1,9 +1,4 @@
-#headerImg {
-    size: auto;
-    display: block;
-    margin: 0 auto;
-}
-
+/*Globals-------------*/
 html {
     scroll-behavior: smooth;
   }
@@ -60,6 +55,12 @@ input:focus {
 
 .top button:hover {
     color: gray;
+}
+
+#headerImg {
+    size: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /*social-----------*/
