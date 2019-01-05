@@ -89,10 +89,10 @@ html {
 
 /*plan---------------*/
 .plan {
-    padding-left: 125px;
-    margin-top: 60px;
+    margin: 200px 200px;
+    margin-bottom: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .text {
@@ -110,7 +110,7 @@ html {
 
 /*idea------------------------*/
 .idea {
-    margin: 0 auto;
+    margin: 130px auto;
     background-image: url("zavrsni-rad/assets/contacts.png");
     background-size: cover;
     background-position: center;
@@ -161,10 +161,10 @@ html {
 
 /*handshake*-----------*/
 .handshake {
-    padding-right: 125px;
-    margin-top: 60px;
+    margin: 50px 200px;
+    margin-bottom: 250px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .handshake .text {
