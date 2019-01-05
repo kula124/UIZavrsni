@@ -1,7 +1,5 @@
 #headerImg {
-    max-height: 365.6px;
-    padding-top: 35px;
-    width: 100%;
+    size: auto;
     display: block;
     margin: 0 auto;
 }
@@ -10,16 +8,43 @@ html {
     scroll-behavior: smooth;
   }
 
+input {
+    background: transparent;
+    height: 23px;
+    width: 180px;
+    font-size: 23px;
+    color: #1EBAB9;
+    border: none;
+    border-bottom: #1EBAB9 1px solid;
+    padding: 0 10px;
+    padding-bottom: 4px;
+}
+
+input::placeholder {
+    font-size: 23px;
+    color: #1EBAB9;
+    opacity: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
 /*top------------*/
 .top {
-    position: relative;
-    width: 90%;
-    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
     background-color: #E8F8F8;
-    height: 482px;
 }
-.top .header {
-    padding: 0 35px;
+
+.logo {
+    position: relative;
+    float: left;
+}
+
+.top .content {
+    display: inline-block;
 }
 
 .top button {
@@ -86,10 +111,10 @@ html {
 
 /*plan---------------*/
 .plan {
-    padding-left: 125px;
-    margin-top: 60px;
+    margin: 200px 200px;
+    margin-bottom: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .text {
@@ -107,7 +132,7 @@ html {
 
 /*idea------------------------*/
 .idea {
-    margin: 0 auto;
+    margin: 130px auto;
     background-image: url("zavrsni-rad/assets/contacts.png");
     background-size: cover;
     background-position: center;
@@ -130,38 +155,16 @@ html {
     font-size: 11px;
 }
 
-.idea input {
-    height: 23px;
-    width: 180px;
-    font-size: 23px;
-    color: #1EBAB9;
-    border: none;
-    border-bottom: #1EBAB9 1px solid;
-    padding: 0 10px;
-    padding-bottom: 4px;
-}
-
-.idea input::placeholder {
-    font-size: 23px;
-    color: #1EBAB9;
-    opacity: 1;
-}
-
-.idea input:focus {
-    border: none;
-    outline: none;
-}
-
 .idea span {
     display: block;
 }
 
 /*handshake*-----------*/
 .handshake {
-    padding-right: 125px;
-    margin-top: 60px;
+    margin: 50px 200px;
+    margin-bottom: 250px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .handshake .text {
@@ -194,6 +197,18 @@ html {
     color: #1EBAB9;
     padding-bottom: 2px;
     border-bottom: #1EBAB9 solid 1px;
+}
+
+#FNinput {
+    width: 100px;
+}
+
+#EMinput {
+    width: 138px;
+}
+
+#PNinput {
+    width: 110px;
 }
 
 /*footer----------------*/
