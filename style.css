@@ -1,7 +1,5 @@
 #headerImg {
-    max-height: 365.6px;
-    padding-top: 35px;
-    width: 100%;
+    size: auto;
     display: block;
     margin: 0 auto;
 }
@@ -12,14 +10,19 @@ html {
 
 /*top------------*/
 .top {
-    position: relative;
-    width: 90%;
-    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
     background-color: #E8F8F8;
-    height: 482px;
 }
-.top .header {
-    padding: 0 35px;
+
+.logo {
+    position: relative;
+    float: left;
+}
+
+.top .content {
+    display: inline-block;
 }
 
 .top button {
