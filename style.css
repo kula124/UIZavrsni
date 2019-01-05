@@ -105,6 +105,57 @@ html {
     text-decoration: none;
 }
 
+/*idea------------------------*/
+.idea {
+    margin: 0 auto;
+    background-image: url("zavrsni-rad/assets/contacts.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 100px;
+}
+
+.idea .text{
+    text-align: center;
+}
+
+#ideasLabel {
+    color: black;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+.idea .text span {
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.idea input {
+    height: 23px;
+    width: 180px;
+    font-size: 23px;
+    color: #1EBAB9;
+    border: none;
+    border-bottom: #1EBAB9 1px solid;
+    padding: 0 10px;
+    padding-bottom: 4px;
+}
+
+.idea input::placeholder {
+    font-size: 23px;
+    color: #1EBAB9;
+    opacity: 1;
+}
+
+.idea input:focus {
+    border: none;
+    outline: none;
+}
+
+.idea span {
+    display: block;
+}
+
 /*handshake*-----------*/
 .handshake {
     padding-right: 125px;
