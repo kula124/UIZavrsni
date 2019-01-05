@@ -27,7 +27,6 @@ input::placeholder {
 }
 
 input:focus {
-    border: none;
     outline: none;
 }
 
