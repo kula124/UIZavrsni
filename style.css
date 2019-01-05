@@ -8,6 +8,29 @@ html {
     scroll-behavior: smooth;
   }
 
+input {
+    background: transparent;
+    height: 23px;
+    width: 180px;
+    font-size: 23px;
+    color: #1EBAB9;
+    border: none;
+    border-bottom: #1EBAB9 1px solid;
+    padding: 0 10px;
+    padding-bottom: 4px;
+}
+
+input::placeholder {
+    font-size: 23px;
+    color: #1EBAB9;
+    opacity: 1;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
 /*top------------*/
 .top {
     display: flex;
@@ -133,28 +156,6 @@ html {
     font-size: 11px;
 }
 
-.idea input {
-    height: 23px;
-    width: 180px;
-    font-size: 23px;
-    color: #1EBAB9;
-    border: none;
-    border-bottom: #1EBAB9 1px solid;
-    padding: 0 10px;
-    padding-bottom: 4px;
-}
-
-.idea input::placeholder {
-    font-size: 23px;
-    color: #1EBAB9;
-    opacity: 1;
-}
-
-.idea input:focus {
-    border: none;
-    outline: none;
-}
-
 .idea span {
     display: block;
 }
@@ -197,6 +198,18 @@ html {
     color: #1EBAB9;
     padding-bottom: 2px;
     border-bottom: #1EBAB9 solid 1px;
+}
+
+#FNinput {
+    width: 100px;
+}
+
+#EMinput {
+    width: 138px;
+}
+
+#PNinput {
+    width: 110px;
 }
 
 /*footer----------------*/
